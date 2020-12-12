@@ -1,0 +1,14 @@
+name: Infested
+version: ${project.version}
+main: com.jtgreaves.infested.Main
+api-version: 1.16
+authors: [ _JTG ]
+description: Spawn silverfish at a set chance for every block you break.
+website: https://jtgreaves.com
+commands:
+  toggleinfested:
+    description: Toggle whether or not the silverfish should spawn.
+  infestedchance:
+    description: Set the chance that the silverfish should spawn.
+  infested:
+    description: Main command for the plugin.
